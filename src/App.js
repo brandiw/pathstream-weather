@@ -1,13 +1,14 @@
 import './App.css';
+import Body from './components/Body.js'
+import Footer from './components/Footer.js'
+import Header from './components/Header.js'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          What's the weather? 🌞 
-        </p>
-      </header>
+      <Header />
+      <Body />
+      <Footer />
     </div>
   );
 }
