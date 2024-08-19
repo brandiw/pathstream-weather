@@ -24,4 +24,13 @@
   margin: 0 10vw;
   padding: 5vh;
   height: 50vh;
+  font-size: calc(10px + 1vmin);
+}
+
+.App-form input {
+  margin-left: 10px;
+}
+
+.results {
+  margin-top: 30px;
 }

@@ -4,7 +4,7 @@ function Header() {
   return (
       <header className="App-header">
         <p>
-          What's the weather? 🌞 
+          What's the weather? ☀️❄️💧
         </p>
       </header>
   );
