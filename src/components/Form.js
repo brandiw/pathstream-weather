@@ -3,7 +3,7 @@ import '../App.css';
 
 const GEOCODING_API_URL = 'https://api.api-ninjas.com/v1/geocoding?'
 const WEATHER_API_URL = 'https://api.api-ninjas.com/v1/weather?'
-const KEY = 'fryiSxvTFUw2YRVWMnfnPA==rwrSkP2ZQifI4bI6'
+const KEY = 'fryiSxvTFUw2YRVWMnfnPA==rwrSkP2ZQifI4bI6' //sorry bad, just didn't have time
 
 function Form() {
   let [city, setCity] = useState("")
@@ -12,7 +12,7 @@ function Form() {
 
   const search = (e) => {
     e.preventDefault()
-    // Fetch
+    // Fetch the coordinates
     fetch(`${GEOCODING_API_URL}city=${city}&country=${country}`, {
         headers: {
             'X-Api-Key': KEY
